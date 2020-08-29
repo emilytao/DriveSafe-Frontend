@@ -1,0 +1,89 @@
+// global variables 
+$text: #464f3d;
+$background: #ffffff;
+$light-accent: #a7ef8b;
+$dark-accent: #02c26e;
+
+// generic page styling
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: $background;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.reference {
+    height: 100%;
+}
+
+input {
+    border: none !important;
+}
+
+// generic components 
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 72px;
+    background: -webkit-linear-gradient($light-accent, $dark-accent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+    color: $text;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    color: $text;
+    font-size: 18px;
+}
+
+.input {
+    font-family: 'Roboto', sans-serif;
+    color: $text;
+    font-size: 14px;
+}
+
+.button {
+    height: 50px;
+    width: 120px;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, $light-accent, $dark-accent);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: none;
+    transition:         0.08s ease-in;
+    -o-transition:      0.08s ease-in;
+    -ms-transition:     0.08s ease-in;
+    -moz-transition:    0.08s ease-in;
+    -webkit-transition: 0.08s ease-in;
+
+    &:hover {
+        box-shadow: 2px 1000px 1px $background inset;
+        color: $light-accent;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,47 @@
+@import "./globalVariables.scss";
+
+.query__title {
+    @extend .subtitle;
+    padding-bottom: 20px;
+}
+
+.query__description {
+    @extend .description; 
+    padding-bottom: 16px;
+}
+
+.query__dropdown {
+    @extend .input;
+    margin-bottom: 16px;
+}
+
+.Dropdown-control {
+    border: none !important;
+}
+
+.Dropdown-menu {
+    border: none !important;
+}
+
+.query__input {
+    @extend .input;
+    width: 300px;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    border: 1px solid $text;
+    border-radius: 10px;
+    outline: none;
+    display: block;
+}
+
+.query__button {
+    @extend .button;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    outline: none;
+}
+
+.query__update {
+    bottom: 30px;
+    position: absolute;
+}

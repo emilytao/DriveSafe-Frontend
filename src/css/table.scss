@@ -1,0 +1,13 @@
+@import "./globalVariables.scss";
+
+.table {
+    @extend .description;
+    width: 100%;
+    padding-bottom: 0px;
+    height: 250px;
+    overflow: scroll;
+}
+
+.table__header {
+    text-align: left;
+}

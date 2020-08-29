@@ -1,0 +1,65 @@
+@import "./globalVariables.scss";
+
+.selection {
+    height: 100%;
+    background-color: #daf5d7;
+}
+
+.selection__container {
+    width: 50%;
+    float: right;
+}
+
+.selection__title {
+    @extend .subtitle; 
+    padding-bottom: 20px;
+}
+
+.selection__button {
+    height: 50px;
+    width: 120px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: $text;
+    transition:         0.08s ease-in;
+    -o-transition:      0.08s ease-in;
+    -ms-transition:     0.08s ease-in;
+    -moz-transition:    0.08s ease-in;
+    -webkit-transition: 0.08s ease-in;
+    outline: none;
+    background: white;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+
+    &:hover {
+        background-color: #daf5d7;
+        cursor: pointer;
+    }
+}
+
+.selection__button-active {
+    height: 50px;
+    width: 120px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: $text;
+    transition:         0.08s ease-in;
+    -o-transition:      0.08s ease-in;
+    -ms-transition:     0.08s ease-in;
+    -moz-transition:    0.08s ease-in;
+    -webkit-transition: 0.08s ease-in;
+    outline: none;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #daf5d7;
+}
+
+.selection__tab {
+    background-color: white;
+}
+
+.selection__query {
+    padding: 75px 100px;
+    height: 600px;
+    position: relative;
+}

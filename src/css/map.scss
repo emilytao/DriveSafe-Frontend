@@ -1,0 +1,13 @@
+@import "./globalVariables.scss";
+.infoWindow_list {
+  list-style: none;
+  padding: 0px 10px;
+}
+
+.infoWindow_list_Title {
+  font-weight: bold;
+}
+
+.map {
+  width: 50% !important;
+}
