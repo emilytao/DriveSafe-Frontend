@@ -7,7 +7,7 @@ DriveSafe allows users to explore collision and traffic volume data regarding in
 Some examples of the features are listed below:
 1. View the most dangerous intersections
 2. Report a collision at an intersection
-3. Visualize intersection data using Google Maps
+3. Visualize the number of collisions and average daily traffic at each intersection using the Google Maps API
 
 ## Data
 1. [An open source collision information dataset](https://public.tableau.com/profile/icbc#!/vizhome/LowerMainlandCrashes/LMDashboard)
@@ -16,7 +16,7 @@ Some examples of the features are listed below:
 ## Tech Stack
 DriveSafe is an **React** web application with a **Node.js** backend connected to a GCP Cloud SQL **MySQL** database.
 
-The frontend repository can be found [here](https://github.com/emilytao/DriveSafe-Frontend)
+The backend repository can be found [here](https://github.com/SamuelHao/DriveSafe-Backend)
 
 ## Android App
 An accompanying android app was developed by one of our team members and can be found [here](https://github.com/Scowluga/DriveSafe)
@@ -25,4 +25,3 @@ An accompanying android app was developed by one of our team members and can be 
 DriveSafe supports an interactive map, similar to Google maps, with two main features: 
 1. DriveSafe calculates the "safest" route for drivers using open source collision information and live traffic data. 
 2. DriveSafe warns drivers when they are approaching dangerous intersections using text-to-speech.
-
